@@ -4,4 +4,6 @@ new_collection = collection.collect do |value|
  end
 if new_collection > 0
 new_collection.split
+else
+  new_collectrion
 end
