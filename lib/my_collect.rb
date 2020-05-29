@@ -5,5 +5,5 @@ new_collection = collection.collect do |value|
 if new_collection > 0
 new_collection.split
 else
-  new_collectrion
+  new_collection
 end
