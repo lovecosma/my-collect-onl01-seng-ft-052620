@@ -1,4 +1,4 @@
-def my_collect(collection)
+def my_collect(collection) {|collection| collection.upcase if collection.split == nil }
  if block_given?
  i = 0
  while i < collection.length
@@ -10,5 +10,3 @@ def my_collect(collection)
    puts "Hey! No block was given!"
  end
  end
-
-{|collection| collection.upcase if collection.split == nil }
