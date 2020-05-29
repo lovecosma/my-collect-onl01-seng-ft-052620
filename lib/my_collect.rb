@@ -5,5 +5,4 @@ new_collection = collection.collect do |value|
  newer_collection = new_collection.collect do |name|
    name.split
  end
- return new_collection
  end
