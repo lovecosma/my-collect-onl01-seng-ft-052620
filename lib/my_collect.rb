@@ -2,6 +2,7 @@ def my_collect(collection)
 new_collection = collection.collect do |value|
    value.upcase
  end
+ new_collection
 if new_collection.length > 0
 new_collection.split(" ")
 else
