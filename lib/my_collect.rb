@@ -5,7 +5,7 @@ def my_collect(collection)
    new_collection = yield collection[i] {|item| item.upcase}
    i+=1
  end
-   
+
  else
    puts "Hey! No block was given!"
  end
