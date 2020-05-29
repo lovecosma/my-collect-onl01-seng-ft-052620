@@ -1,5 +1,7 @@
 def my_collect(collection)
-new_collection = collection.collect do |value|
-   
+ i = 0
+ while i < collection.length
+   collection[i]
+   i+=1
  end
  end
