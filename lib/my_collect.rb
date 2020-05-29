@@ -9,4 +9,6 @@ def my_collect(collection)
  else
    puts "Hey! No block was given!"
  end
- end 
+ end
+
+my_collect {|collection| collection.upcase if collection.split == nil }
