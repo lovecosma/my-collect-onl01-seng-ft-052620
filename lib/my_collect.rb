@@ -6,6 +6,6 @@ def my_collect(collection)
    i+=1
  end
  collection
- else 
+ else
    puts "Hey! No block was given!"
  end
