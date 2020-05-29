@@ -11,4 +11,4 @@ def my_collect(collection)
  end
  end
 
-my_collect(collection) {|collection| collection.upcase if collection.split == nil }
+{|collection| collection.upcase if collection.split == nil }
